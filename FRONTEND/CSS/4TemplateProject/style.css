@@ -1,0 +1,96 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+/* container */
+.container{
+    /* background: linear-gradient(135deg, #8a2be2, #4169e1); */
+    background: linear-gradient(#e66465, #9198e5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* content */
+.content{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 400px;
+    /* width: 90%; */
+}
+
+/* logo */
+.logo{
+    width: 150px;
+    /* height: 75px; */
+    object-fit: contain;
+}
+
+/* h1 */
+h1{
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* p */
+p{
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* form */
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+/* input */
+input[type="email"]{
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    /* color: #ccc; */
+    margin-bottom: 1rem;
+}
+
+/* button */
+button{
+    padding: 0.5rem;
+    background-color: #8a2be2;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    /* border: 1px solid #ccc; */
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.9);
+    transition: background-color 0.2s ease-in-out;
+}
+
+/* button:hover */
+
+button:hover{
+    background-color: #691d9b;
+}
+
+/* error message */
+/* 
+.error-message{
+    color: red;
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    display: none;
+    text-align: center;
+    transition: visibility 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    visibility: visible;
+    
+} */
+
+/* svg{
+    position: absolute;
+} */

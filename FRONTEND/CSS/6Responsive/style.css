@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1a1a1a;
+}
+
+/* responsive-div */
+.responsive-div{
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    color: #fff;
+    font-size: 26px;
+    background-color: #94108b;
+}
+
+@media (max-width: 600px) {
+
+    body{
+        align-items: flex-start;
+    }
+    .responsive-div{
+        background-color: #0f8cb9;
+    }  
+}
+
+@media (min-width: 601px) and (max-width: 1024px){
+    body{
+        align-items: center;
+    }
+    .responsive-div{
+        background-color: #740224;
+    }
+}

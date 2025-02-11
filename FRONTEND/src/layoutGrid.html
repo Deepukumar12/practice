@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <title>layout Grid</title>
+</head>
+<body>
+    
+<!-- equal section -->
+<div class="m-4 grid gap-4 sm:cols-1">
+    <div class="min-h-[100px] rounded-lg bg-red-800 shadow"></div>
+  </div>
+  
+  <div class="m-4 grid gap-4 sm:grid-cols-2">
+  <div class="min-h-[100px] rounded-lg bg-pink-500 shadow"></div>
+  <div class="min-h-[100px] rounded-lg bg-blue-500 shadow"></div>
+  </div>
+  
+  <div class="m-4 grid gap-4 sm:grid-cols-3">
+    <div class="min-h-[100px] rounded-lg bg-green-500 shadow"></div>
+    <div class="min-h-[100px] rounded-lg bg-yellow-500 shadow"></div>
+    <div class="min-h-[100px] rounded-lg bg-violet-700 shadow"></div>
+  </div>
+  
+  <div class="m-4 grid gap-4 sm:grid-cols-4">
+    <div class="min-h-[100px] rounded-lg bg-orange-500 shadow"></div>
+    <div class="min-h-[100px] rounded-lg bg-teal-500 shadow"></div>
+    <div class="min-h-[100px] rounded-lg bg-red-500 shadow"></div>
+    <div class="min-h-[100px] rounded-lg bg-purple-500 shadow"></div>
+  </div>
+  
+  <!-- not equal section -->
+  <div class="m-4 grid  grid-cols-2 gap-4 sm:grid-cols-12 ">
+    <div class="sm:col-span-2 min-h-[100px] rounded-lg bg-orange-600 shadow"></div>
+    <div class="sm:col-span-10 min-h-[100px] rounded-lg bg-teal-900 shadow"></div>
+  </div>
+  
+  
+  
+  
+  
+  <!-- <div class="grid sm:grid-cols-2"></div> -->
+</body>
+</html>
